@@ -184,7 +184,6 @@ export default function Home() {
       <footer className="footer shell">
         <a className="brand-name" href="#top">Dorothy Bora<span className="brand-dot">.</span></a>
         <p>PGCM | 2027</p>
-        <a href="#top">Dorothy Bora</a>
       </footer>
     </main>
   );
