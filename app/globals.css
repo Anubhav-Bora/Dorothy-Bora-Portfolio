@@ -238,6 +238,32 @@ button, a { -webkit-tap-highlight-color: transparent; }
 
 @keyframes status-pulse { 0%, 100% { box-shadow: 0 0 0 4px rgba(75,139,102,.12); } 50% { box-shadow: 0 0 0 7px rgba(75,139,102,.035); } }
 @keyframes scroll-nudge { 0%, 100% { transform: translateY(-2px); } 50% { transform: translateY(3px); } }
+@keyframes hero-name-in { from { opacity: 0; letter-spacing: -.02em; transform: translateY(14px); } to { opacity: 1; letter-spacing: -.057em; transform: translateY(0); } }
+@keyframes fade-up { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+/* Hero entrance */
+.motion-ready .hero h1 { animation: hero-name-in .9s cubic-bezier(.22,1,.36,1) .1s both; }
+.motion-ready .hero-copy .eyebrow { animation: fade-up .6s cubic-bezier(.22,1,.36,1) both; }
+.motion-ready .hero-copy .hero-statement { animation: fade-up .7s cubic-bezier(.22,1,.36,1) .18s both; }
+.motion-ready .hero-copy .hero-principles { animation: fade-up .6s cubic-bezier(.22,1,.36,1) .28s both; }
+.motion-ready .hero-copy .hero-actions { animation: fade-up .6s cubic-bezier(.22,1,.36,1) .38s both; }
+
+/* Brand name hover — underline draw */
+.brand-name { position: relative; }
+.brand-name::after { content: ""; position: absolute; inset: auto 0 -2px; height: 1px; background: var(--accent); transform: scaleX(0); transform-origin: left; transition: transform .3s cubic-bezier(.22,1,.36,1); }
+.brand-name:hover::after { transform: scaleX(1); }
+
+/* Skill stack — left slide on hover */
+.skill-stack__item { transition: padding-left .25s cubic-bezier(.22,1,.36,1); }
+.skill-stack__item:hover { padding-left: 8px; }
+
+/* Profile blocks — left border grow */
+.profile-block { border-left: 2px solid transparent; transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease; }
+.profile-block:hover { border-left-color: var(--accent); }
+
+/* Section label number — subtle pop */
+.section-label > span { transition: background .25s, color .25s, transform .25s cubic-bezier(.22,1,.36,1); }
+.section-heading:hover .section-label > span { background: var(--accent); color: var(--white); border-color: var(--accent); transform: rotate(8deg) scale(1.08); }
 
 .motion-ready [data-reveal] {
   opacity: 0;
