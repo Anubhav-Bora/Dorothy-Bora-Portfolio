@@ -1,0 +1,76 @@
+{
+  "profile": {
+    "name": "Dorothy Bora",
+    "qualification": "PGCM | Great Lakes Institute of Management, Gurgaon | Pursuing | 2027",
+    "summary": "Management professional skilled in process optimization, leveraging data analytics to enhance operational efficiency and business performance."
+  },
+  "metrics": [
+    { "value": "50%", "label": "improving delivery time" },
+    { "value": "25%", "label": "improved delivery capacity" },
+    { "value": "16%", "label": "reducing operational disruptions" },
+    { "value": "2024", "label": "Insta Award, Infosys" }
+  ],
+  "projects": [
+    {
+      "number": "01",
+      "title": "Parcel Distribution & Operations Management",
+      "description": "Applied process mapping, capacity planning, lean waste analysis and demand forecasting to optimize parcel flow, storage utilization and staffing and developed a data-driven decision support dashboard for operational decision-making",
+      "approach": ["Process mapping", "Capacity planning", "Lean waste analysis", "Demand forecasting"],
+      "outcome": "Data-driven decision support dashboard for operational decision-making"
+    },
+    {
+      "number": "02",
+      "title": "Employee Attrition & Retention Analysis",
+      "description": "Analyzed IBM HR data using EDA, correlation analysis and regression techniques to identify attrition drivers, high-risk employee segments and career progression risks and derive targeted retention strategies",
+      "approach": ["EDA", "Correlation analysis", "Regression techniques", "High-risk employee segments"],
+      "outcome": "Targeted retention strategies"
+    },
+    {
+      "number": "03",
+      "title": "Stock Market Statistical Analysis",
+      "description": "Analyzed HUL's stock price and trading volume data using descriptive statistics, correlation analysis, hypothesis testing and outlier detection to evaluate stock return, trading volume and price volatility and derive investment recommendations",
+      "approach": ["Descriptive statistics", "Correlation analysis", "Hypothesis testing", "Outlier detection"],
+      "outcome": "Investment recommendations"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Senior Systems Engineer",
+      "company": "Infosys",
+      "period": "Oct 2023 – Mar 2025",
+      "highlights": [
+        "Managed critical client escalations, setting a benchmark, that led to contract renewal",
+        "Resolved recurring operational challenges and developed knowledge resources improving delivery time by 50%",
+        "Mentored a team of freshers through knowledge transfer sessions which improved delivery capacity by 25%"
+      ]
+    },
+    {
+      "role": "Systems Engineer",
+      "company": "Infosys",
+      "period": "Oct 2021 – Sep 2023",
+      "highlights": [
+        "Delivered client issue resolution reducing operational disruptions by 16% leading to customer satisfaction",
+        "Created weekly status reports, aligning client on team progress, improving transparency and client confidence"
+      ]
+    }
+  ],
+  "education": [
+    { "degree": "PGCM", "institution": "Great Lakes Institute of Management, Gurgaon", "score": "Pursuing", "year": "2027" },
+    { "degree": "B. Tech. (Hons)", "institution": "North Eastern Regional Institute of Science and Technology, Nirjuli", "score": "8.23/10", "year": "2021" },
+    { "degree": "12th", "institution": "North Eastern Regional Institute of Science and Technology, Nirjuli", "score": "7.94/10", "year": "2017" },
+    { "degree": "10th", "institution": "Kendriya Vidyalaya, HPC Jagiroad", "score": "10/10", "year": "2015" }
+  ],
+  "skills": ["BUSINESS ANALYSIS", "REQUIREMENTS GATHERING", "PROCESS IMPROVEMENT", "CLIENT RELATIONSHIP BUILDING", "STAKEHOLDER MANAGEMENT", "SQL", "EXCEL"],
+  "recognition": [
+    { "title": "Insta Award", "issuer": "Infosys", "year": "2024" },
+    { "title": "Scholarship recipient and Letter of Appreciation", "issuer": "Ministry of Human Resource", "year": "2015" }
+  ],
+  "leadership": [
+    { "role": "Mentor", "organization": "Infosys", "year": "2024" },
+    { "role": "Team Leader", "organization": "NSS", "year": "2021" },
+    { "role": "Girls’ Representative", "organization": "NERIST", "year": "2019" }
+  ],
+  "certification": { "title": "Problem Solving with Excel", "issuer": "PWC", "year": "2026", "duration": "2 weeks" },
+  "languages": ["English", "Hindi", "Assamese"],
+  "interests": ["Fine arts and craft", "Poetry composition", "Elocution competitions"]
+}
