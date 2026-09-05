@@ -61,7 +61,7 @@ export function Navigation() {
             );
           })}
         </div>
-        <a className="nav-resume" href="/dorothy-bora-resume.docx" download>
+        <a className="nav-resume" href="/dorothy-bora-resume.pdf" download>
           Download Resume <Download size={15} />
         </a>
       </nav>

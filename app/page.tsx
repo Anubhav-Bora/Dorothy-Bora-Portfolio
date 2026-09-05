@@ -215,7 +215,7 @@ export default function Home() {
         </div>
         <div className="closing-actions">
           <img src="/great-lakes-logo.jpeg" alt="Great Lakes Institute of Management" />
-          <a className="button button--light" href="/dorothy-bora-resume.docx" download>
+          <a className="button button--light" href="/dorothy-bora-resume.pdf" download>
             Download Resume <Download size={17} />
           </a>
         </div>
