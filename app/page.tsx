@@ -76,14 +76,24 @@ export default function Home() {
               </div>
               <strong className="case-card__outcome">{project.outcome}</strong>
               {index === 0 && (
-                <a
-                  href="https://parcelmanager-glimg.netlify.app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="case-card__link"
-                >
-                  Click here for dashboard <ArrowUpRight size={14} />
-                </a>
+                <div className="case-card__links">
+                  <a
+                    href="/A4_Great Lakes parcel manager.docx"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="case-card__link"
+                  >
+                    Project Report <ArrowUpRight size={14} />
+                  </a>
+                  <a
+                    href="https://parcelmanager-glimg.netlify.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="case-card__link"
+                  >
+                    Click here for dashboard <ArrowUpRight size={14} />
+                  </a>
+                </div>
               )}
               {index === 1 && (
                 <div className="case-card__links">
