@@ -25,13 +25,6 @@
       "approach": ["EDA", "Correlation analysis", "Regression techniques", "High-risk employee segments"],
       "outcome": "Targeted retention strategies"
     },
-    {
-      "number": "03",
-      "title": "Stock Market Statistical Analysis",
-      "description": "Analyzed HUL's stock price and trading volume data using descriptive statistics, correlation analysis, hypothesis testing and outlier detection to evaluate stock return, trading volume and price volatility and derive investment recommendations",
-      "approach": ["Descriptive statistics", "Correlation analysis", "Hypothesis testing", "Outlier detection"],
-      "outcome": "Investment recommendations"
-    }
   ],
   "experience": [
     {
