@@ -24,7 +24,7 @@
       "description": "Analyzed IBM HR data using EDA, correlation analysis and regression techniques to identify attrition drivers, high-risk employee segments and career progression risks and derive targeted retention strategies",
       "approach": ["EDA", "Correlation analysis", "Regression techniques", "High-risk employee segments"],
       "outcome": "Targeted retention strategies"
-    },
+    }
   ],
   "experience": [
     {
