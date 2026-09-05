@@ -2,7 +2,7 @@
   "profile": {
     "name": "Dorothy Bora",
     "qualification": "PGCM | Great Lakes Institute of Management, Gurgaon | Pursuing | 2027",
-    "summary": "Management professional skilled in process optimization, leveraging data analytics to enhance operational efficiency and business performance."
+    "summary": "Management professional with experience in process improvement and operational problem-solving to improve efficiency and business performance."
   },
   "metrics": [
     { "value": "50%", "label": "improving delivery time" },
@@ -53,7 +53,7 @@
     { "degree": "12th", "institution": "North Eastern Regional Institute of Science and Technology, Nirjuli", "score": "7.94/10", "year": "2017" },
     { "degree": "10th", "institution": "Kendriya Vidyalaya, HPC Jagiroad", "score": "10/10", "year": "2015" }
   ],
-  "skills": ["BUSINESS ANALYSIS", "REQUIREMENTS GATHERING", "PROCESS IMPROVEMENT", "CLIENT RELATIONSHIP BUILDING", "STAKEHOLDER MANAGEMENT", "SQL", "EXCEL"],
+  "skills": ["PERFORMANCE IMPROVEMENT", "PROCESS OPTIMIZATION", "BUSINESS ANALYSIS", "OPERATIONAL DATA ANALYSIS", "CLIENT RELATIONSHIP BUILDING", "STAKEHOLDER MANAGEMENT"],
   "recognition": [
     { "title": "Insta Award", "issuer": "Infosys", "year": "2024" },
     { "title": "Scholarship recipient and Letter of Appreciation", "issuer": "Ministry of Human Resource", "year": "2015" }
