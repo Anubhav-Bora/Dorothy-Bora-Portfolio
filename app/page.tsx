@@ -78,7 +78,7 @@ export default function Home() {
               {index === 0 && (
                 <div className="case-card__links">
                   <a
-                    href="/A4_Great Lakes parcel manager.docx"
+                    href="/Parcel_Manager.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="case-card__link"
