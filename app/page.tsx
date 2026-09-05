@@ -82,7 +82,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="case-card__link"
                 >
-                  Click here for DashBoard <ArrowUpRight size={14} />
+                  Click here for dashboard <ArrowUpRight size={14} />
                 </a>
               )}
             </article>
