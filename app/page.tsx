@@ -75,6 +75,16 @@ export default function Home() {
                 {project.approach.map((item) => <span key={item}>{item}</span>)}
               </div>
               <strong className="case-card__outcome">{project.outcome}</strong>
+              {index === 0 && (
+                <a
+                  href="https://parcelmanager-glimg.netlify.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="case-card__link"
+                >
+                  Click here <ArrowUpRight size={14} />
+                </a>
+              )}
             </article>
           ))}
         </div>
