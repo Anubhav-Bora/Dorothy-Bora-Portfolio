@@ -85,6 +85,26 @@ export default function Home() {
                   Click here for dashboard <ArrowUpRight size={14} />
                 </a>
               )}
+              {index === 1 && (
+                <div className="case-card__links">
+                  <a
+                    href="/business-analytics-project-report.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="case-card__link"
+                  >
+                    Project Report <ArrowUpRight size={14} />
+                  </a>
+                  <a
+                    href="https://a4-employeeattrition.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="case-card__link"
+                  >
+                    Click here for dashboard <ArrowUpRight size={14} />
+                  </a>
+                </div>
+              )}
             </article>
           ))}
         </div>

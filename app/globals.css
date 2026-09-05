@@ -326,6 +326,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .case-card__outcome { max-width: 580px; margin-top: auto; padding-top: 30px; color: var(--accent-dark); font-family: var(--display); font-size: 17px; line-height: 1.35; font-weight: 500; }
 .case-card__link { display: inline-flex; align-items: center; gap: 4px; margin-top: 14px; font-size: 14px; font-weight: 600; color: var(--accent-dark); text-decoration: underline; text-underline-offset: 3px; transition: opacity 0.2s; }
 .case-card__link:hover { opacity: 0.7; }
+.case-card__links { display: flex; flex-direction: column; gap: 4px; }
 
 .qualification-table { border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
 .qualification-table__head, .qualification-row { display: grid; grid-template-columns: 1fr 3fr 1fr .65fr; gap: 24px; align-items: center; }
