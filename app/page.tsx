@@ -30,7 +30,6 @@ export default function Home() {
         <aside className="profile-card" aria-label="KEY SKILLS" data-reveal>
           <div className="profile-card__header">
             <p className="card-label">KEY SKILLS</p>
-            <span className="profile-card__index" aria-hidden="true">01 / 07</span>
           </div>
           <div className="skill-stack">
             {resume.skills.map((skill, index) => (

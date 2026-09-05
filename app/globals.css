@@ -120,7 +120,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .profile-card { position: relative; overflow: hidden; padding: 28px; background: rgba(255, 254, 251, .94); border: 1px solid rgba(21,53,47,.11); box-shadow: var(--shadow); }
 .profile-card::before { content: ""; position: absolute; width: 180px; height: 180px; border-radius: 50%; top: -105px; right: -80px; background: var(--sage); }
 .profile-card::after { content: ""; position: absolute; inset: 0 auto 0 0; width: 3px; background: linear-gradient(var(--accent), #e8b09e 42%, transparent 80%); }
-.profile-card__header { position: relative; z-index: 1; display: flex; align-items: center; justify-content: space-between; margin-bottom: 29px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+.profile-card__header { position: relative; z-index: 1; display: flex; align-items: center; justify-content: space-between; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
 .profile-card__index { color: rgba(21,53,47,.42); font-family: var(--display); font-size: 11px; }
 .profile-card__top { position: relative; display: flex; align-items: center; gap: 16px; }
 .profile-name { margin: 0 0 5px; font-weight: 800; font-size: 17px; }
